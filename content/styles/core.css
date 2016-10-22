@@ -1,0 +1,116 @@
+body {
+	background-color: rgb(250,248,243);
+    color: white;
+}
+
+a {
+    color: #b59a57;
+}
+
+a:hover {
+    color: #b59a57;
+    text-decoration: underline;
+}
+
+.navbar-right {
+    margin: 10px;
+    margin-top: 5px;
+}
+
+#navbar {
+    margin-left: -10px;
+    background-color: #b59a57;
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    font-size: 16px;
+    border-right: 1px solid #c8b075;
+}
+
+#navbar a:hover {
+    background-color: #a0884d;
+}
+
+
+.header {
+    background-color: black;
+    font-size: 18px;
+}
+
+.header a {
+    padding: 10px;
+}
+
+.header img {
+    padding: 10px;
+}
+
+.searchForm {
+    background-color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.searchBox {
+    background-color: #414141;
+    border: none;
+}
+
+.stylish-input-group .input-group-addon {
+    background: #a0884d !important; 
+    border: none;
+}
+.stylish-input-group .form-control {
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button {
+    border: none;
+    background: #a0884d;
+}
+
+
+
+
+
+
+
+
+
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px black;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}

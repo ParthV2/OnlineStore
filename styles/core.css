@@ -1,0 +1,125 @@
+html, body {
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+body {
+	background-color: rgb(250,248,243);
+    color: black;
+}
+
+#mainContainerDiv {
+	min-height:100%;
+	position:relative;
+	padding-bottom: 100px;
+}
+
+a {
+    color: #b59a57;
+}
+
+a:hover {
+    color: #b59a57;
+    text-decoration: underline;
+}
+
+#navbar {
+    margin-left: -15px;
+    background-color: #b59a57;
+    color: white;
+}
+
+#navbar a {
+    color: white;
+    font-size: 16px;
+    border-right: 1px solid #c8b075;
+}
+
+#navbar a:hover {
+    background-color: #a0884d;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color: black;
+    font-size: 18px;
+}
+
+.header a {
+    padding: 10px;
+}
+
+.header img {
+    padding: 10px;
+}
+
+.header #user_name {
+    color: white;
+}
+
+.userLinks {
+    margin-right: 20px; 
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 0 0;
+    padding-top: 5px;
+}
+
+
+/* Search bar */
+.searchForm {
+    background-color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.searchBox {
+    background-color: #414141;
+    border: none; 
+    color: white;
+}
+
+.stylish-input-group .input-group-addon {
+    background: #a0884d !important; 
+    border: none;
+}
+
+
+/* Buttons */
+.btn-info {
+    background-color: #b59a57;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-info:hover {
+    background-color: #a0884d;
+}
+
+.btn-info:active {
+    background-color: #c8b075;
+}
+
+.btn-info:focus {
+    background-color: #c8b075;
+}
+
+.btn-info:active:focus {
+    background-color: #c8b075;
+}

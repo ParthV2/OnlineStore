@@ -6,6 +6,7 @@ Our group was tasked with creating an online store. This website allows a user t
 
 All of the above requirements have been met. Some additional features have also been implemented. These features include a “My Account” page; the ability for a seller to update the stock, description, image, and price of his or her products; and a responsive client side design.
 
+
 ##Database Design
 The basis of this website design is the database. It is the driving source for all of the data storage, and allows for dynamic updates to the website based on the data contained within the it. Since this project is simply a prototype of an online store, a basic database design was created and implemented. This design employs three tables (PRODUCT, USER, and CATEGORY) to perform the requirements listed in the above section.
 
@@ -14,20 +15,27 @@ The following business rules were created to form the basis of the database desi
 
 ###Entity Relationship Diagram
 The Entity Relationship Diagram (ERD) below was created in accordance with the above business rules. In this diagram, we see a one to many (1:M) relationship between the USER and PRODUCT tables. Additionally, we see a one to many (1:M) relationship between the CATEGORY and PRODUCT entities.
-![ERD](/images/ERD.png "ERD")
+
+![ERD](./images/ERD.png "ERD")
+
 
 ###Entity Definitions
 The tables below show the attributes for the PRODUCT, USER, and CATEGORY tables. They also list the data types and primary keys/foreign keys for each of the tables.
-![Category](/images/tableCategory.png "Category")
-![Product](/images/tableProduct.png "Product")
-![User](/images/tableUser.png "User")
+
+![Category](./images/tableCategory.png "Category")
+
+![Product](./images/tableProduct.png "Product")
+
+![User](./images/tableUser.png "User")
+
  
+
 ##Implementation
 ###Basic Implementation Strategy
-To implement this project, we used MySQL and PHP for the back-end. HTML, JavaScript, and Bootstrap were used for development of the front-end. The code and database are both hosted in the cloud 9 hosting environment. 
+To implement this project, we used MySQL and PHP for the back-end. HTML, JavaScript, and Bootstrap were used for development of the front-end. The code and database are both hosted in the [Cloud9](https://c9.io/) hosting environment. 
 
 ###Model, View, Controller (MVC) Backend
-To organize our back end code, we implemented a model, view, controller (MVC) framework for our code. Through this framework, the code is organized in such a way that all views are stored in one place, processing pages are stored in another, and model objects are stored in a separate file. This allows for an object oriented approach to coding the website, and enables code reusability, while enhancing readability of our code.
+To organize our back end code, we implemented a model-view-controller (MVC) framework for our code. Through this framework, the code is organized in such a way that all views are stored in one place, processing pages are stored in another, and model objects are stored in a separate file. This allows for an object oriented approach to coding the website, and enables code reusability, while enhancing readability of our code.
 
 The “model” area of the code contains all of the models and object types for the tables. These are essentially PHP objects which store the attributes of one entry. Each entry thus can be translated into a PHP object, or created from a PHP object. This model is manipulated by the controller, and displays information back to the view. Our model contains objects for USER, PRODUCT, and CATEGORY.
 
@@ -42,6 +50,7 @@ As aforementioned, each controller makes calls to the respective repository. Eac
 
 ###Results and Future Work
 Given the database structure above and implementation methods provided above, we were able to meet all of the requirement for the project. Additionally, some extra features such as the my account page were added to the original design. Though the database design and implementation strategy used met all of the provided requirements for the project, there is much room for future improvement of our project. These improvements may include the addition of more tables including a transaction history and line table to store transaction history when users make purchases. With our MVC structure and the current database design, additions such as this are very simple and would not take long to do. This adaptability of the application is an important part of the implementation, as it allows for flexibility and the addition of more features to the project.
+
 
 ##Contributions
 We divided up the roles for this project in the following way:

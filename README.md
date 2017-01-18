@@ -32,6 +32,7 @@ The tables below show the attributes for the PRODUCT, USER, and CATEGORY tables.
  
 
 ## Implementation
+
 ### Basic Implementation Strategy
 To implement this project, we used MySQL and PHP for the back-end. HTML, JavaScript, and Bootstrap were used for development of the front-end. The code and database are both hosted in the [Cloud9](https://c9.io/) hosting environment. 
 

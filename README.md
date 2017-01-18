@@ -2,6 +2,7 @@ This was a term project for CSE 345 - Database Design and Implementation. My tea
 
 # Online Store - Database Design and Implementation
 ## Problem Description
+
 Our group was tasked with creating an online store. This website allows a user to view and purchase available products sorted by different categories. The website is connected to a MySQL database which stores data regarding product information, users and categories. This site also includes a shopping cart which holds all of a customer’s selections. The shopping cart is updatable throughout each user’s session on the website. Additionally, to complete a transaction, the customer must to register and login. A transaction, in this case, is merely an inventory update in the database (decrements the stock by one). Moreover, registered users are also able to sell products through the website, and check his or her products that are on the market.
 
 All of the above requirements have been met. Some additional features have also been implemented. These features include a “My Account” page; the ability for a seller to update the stock, description, image, and price of his or her products; and a responsive client side design.
@@ -13,7 +14,7 @@ The basis of this website design is the database. It is the driving source for a
 ### Business Rules
 The following business rules were created to form the basis of the database design: Each product may be sold by one user, who must be a seller. Each seller may sell one or multiple products. Each product may belong to one category. Each category may have multiple products in it. Each user may buy many products.
 
-###Entity Relationship Diagram
+### Entity Relationship Diagram
 The Entity Relationship Diagram (ERD) below was created in accordance with the above business rules. In this diagram, we see a one to many (1:M) relationship between the USER and PRODUCT tables. Additionally, we see a one to many (1:M) relationship between the CATEGORY and PRODUCT entities.
 
 ![ERD](./images/ERD.png "ERD")

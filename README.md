@@ -1,8 +1,8 @@
 This was a term project for CSE 345 - Database Design and Implementation. My team consisted of myself, Michael Looka, and Mark Easterly. Our final report can be seen below.
 
 # Online Store - Database Design and Implementation
-## Problem Description
 
+## Problem Description
 Our group was tasked with creating an online store. This website allows a user to view and purchase available products sorted by different categories. The website is connected to a MySQL database which stores data regarding product information, users and categories. This site also includes a shopping cart which holds all of a customer’s selections. The shopping cart is updatable throughout each user’s session on the website. Additionally, to complete a transaction, the customer must to register and login. A transaction, in this case, is merely an inventory update in the database (decrements the stock by one). Moreover, registered users are also able to sell products through the website, and check his or her products that are on the market.
 
 All of the above requirements have been met. Some additional features have also been implemented. These features include a “My Account” page; the ability for a seller to update the stock, description, image, and price of his or her products; and a responsive client side design.
